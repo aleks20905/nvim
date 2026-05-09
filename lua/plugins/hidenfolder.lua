@@ -9,16 +9,18 @@ return {
         hide_dotfiles = false,
         hide_gitignored = true,
         hide_by_name = {
-          '.git',
+          ".git",
           -- '.DS_Store',
           -- 'thumbs.db',
         },
         never_show = {
 
-          '.git',
-
+          ".git",
+        },
+        hide_by_pattern = {
+          "*_templ.go",
         },
       },
-    }
-  }
+    },
+  },
 }
