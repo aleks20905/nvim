@@ -6,12 +6,15 @@ return {
       gopls = {
         mason = false,
       },
+
       nil_ls = {
         mason = false,
       },
+
       pyright = {
         mason = false,
       },
+
       ruff = {
         mason = false,
       },
